@@ -1,0 +1,12 @@
+{
+  "name": "My Basis Chrome",
+  "description": "New tab customization",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "chrome_url_overrides": {
+    "newtab": "tabpage/index.html"
+  }
+}
